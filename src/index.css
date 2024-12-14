@@ -1,0 +1,62 @@
+body {
+  font-family: sans-serif;
+}
+.container {
+ display: flex;
+  gap: 20px;
+   margin: 20px
+}
+
+.dx-datagrid>.dx-datagrid-rowsview{
+  background-color: #e2e2e2 !important;
+ }
+.dx-row-alt {
+  background: #a44343 !important; 
+}
+.inside-columns,
+.outside-columns {
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 10px;
+  margin: 5px 0;
+  text-align: center;
+}
+.outside-columns {
+  border: 2px solid rgb(230, 51, 51);
+}
+.inside-columns {
+  border: 2px solid green;
+}
+
+.spinner-container {
+  position: fixed; 
+  top: 30%; 
+  left: 50%;
+  transform: translateX(-50%); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3); 
+  border-top: 4px solid #3498db; 
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.sidebar-wrapper{
+  padding: 10px;
+  width: 200px;
+   border: 1px solid #5d1515;
+   background: #ebeaea;
+    padding: 10px'
+}
+
